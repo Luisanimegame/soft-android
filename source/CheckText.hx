@@ -24,8 +24,9 @@ import io.newgrounds.NG;
 import lime.app.Application;
 import openfl.Assets;
 
-
+#if windows
 import Discord.DiscordClient;
+#end
 
 #if cpp
 import sys.thread.Thread;
@@ -41,8 +42,9 @@ class CheckText extends MusicBeatState
 
     override  function create():Void
 	{
+		#if windows
         DiscordClient.changePresence("Inside The Credits Menu", null);
-
+		#end
 
         var pic:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('menuGB'));
 		pic.setGraphicSize(Std.int(pic.width * 1.0));
@@ -72,7 +74,16 @@ class CheckText extends MusicBeatState
         Thank you for playing, and reading this, I hope to add even more cool features to this mod in the future.
         You can press any key to return to the credits";
         dropText.visible = true;
-         if (FlxG.keys.justPressed.ANY)
+        
+        #if mobile
+        var jusTouched:Bool = false;
+
+        for (touch in FlxG.touches.list)
+          if (touch.justPressed)
+            jusTouched = true;
+        #end
+        
+         if (FlxG.keys.justPressed.ANY #if mobile || jusTouched #end)
 		{
             //FlxG.sound.music.stop();
             FlxG.switchState(new CreditsMenu());
