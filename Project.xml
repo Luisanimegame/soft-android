@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin: Soft Mod" file="Soft Mod" packageName="com.Disky.SoftMod" package="com.Disky.SoftMod" main="Main" version="0.2.7.1" company="Disky" />
+	<app title="FNF': Soft Mod" file="Soft Mod" packageName="com.Gagsky.SoftMod" package="com.Gagsky.SoftMod" main="Main" version="0.2.7.1" company="Disky" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -27,7 +27,7 @@
 	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" vsync="false"/>
 
 	<!--Mobile-specific-->
-	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" resizable="false"/>
+	<window if="mobile" orientation="landscape" fullscreen="true" resizable="false"/>
 
 	<!--Switch-specific-->
 	<window if="switch" orientation="landscape" fullscreen="true" width="0" height="0" resizable="true" />
@@ -39,6 +39,7 @@
 	<set name="BUILD_DIR" value="export/32bit" if="32bit" />
 
 	<classpath name="source" />
+	<assets path='assets/mobile' if='mobile' />
 
 	<assets path="assets/preload" rename="assets" exclude="*.ogg" if="web"/>
 	<assets path="assets/preload" rename="assets" exclude="*.mp3" unless="web"/>
@@ -120,7 +121,7 @@
 	<haxelib name="flixel-ui" />
 	<haxelib name="newgrounds"/>
 	<haxelib name="faxe" if='switch'/>
-	<haxelib name="polymod"/>
+	<!-- <haxelib name="polymod"/> -->
 	<haxelib name="discord_rpc" if="windows"/>
 	<haxelib name="linc_luajit" if="windows"/>
 
@@ -163,6 +164,16 @@
 
 	<!--Enable this for Nape release builds for a serious peformance improvement-->
 	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
+	
+	<!-- _________________________________ Android Stuff _______________________________ -->
+	<section if="android">
+		<config>
+			<android target-sdk-version="29"/>
+		</config>
+	</section>
+
+	<haxedef name="HXCPP_CHECK_POINTER" />
+	<haxedef name="HXCPP_STACK_LINE" />
 
 	<!-- _________________________________ Custom _______________________________ -->
 
