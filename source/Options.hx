@@ -113,7 +113,7 @@ class HitInvOption extends Option
 
 	private override function updateDisplay():String
 	{
-		return FlxG.save.data.hitboox ? "Si" : "No";
+		return FlxG.save.data.hitboox ? "Hitbox Inv" : "Hitbox Vis";
 	}
 }
 
