@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="bgLimo.png">
-	<!-- Created with Adobe Animate version 21.0.0.35450 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="BG limo0000" x="5" y="5" width="2151" height="385" frameX="-21" frameY="-6" frameWidth="2197" frameHeight="391"/>
-	<SubTexture name="BG limo0001" x="5" y="395" width="2197" height="387" frameX="0" frameY="-4" frameWidth="2197" frameHeight="391"/>
-	<SubTexture name="BG limo0002" x="5" y="787" width="2146" height="391" frameX="-21" frameY="0" frameWidth="2197" frameHeight="391"/>
-	<SubTexture name="BG limo0003" x="5" y="1183" width="2173" height="390" frameX="-21" frameY="0" frameWidth="2197" frameHeight="391"/>
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="BG limo0000" x="0" y="1176" width="2150" height="388" frameX="-19" frameY="-5" frameWidth="2197" frameHeight="391"/>
+	<SubTexture name="BG limo0001" x="0" y="0" width="2194" height="390" frameX="1" frameY="-3" frameWidth="2197" frameHeight="391"/>
+	<SubTexture name="BG limo0002" x="0" y="783" width="2150" height="393" frameX="-19" frameY="0" frameWidth="2197" frameHeight="391"/>
+	<SubTexture name="BG limo0003" x="0" y="390" width="2173" height="393" frameX="-19" frameY="1" frameWidth="2197" frameHeight="391"/>
 </TextureAtlas>
