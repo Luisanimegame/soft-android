@@ -1,37 +1,69 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="softgf3.png">
-	<!-- Created with Adobe Animate version 21.0.5.40714 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Soft GF Body DOWN 30000" x="0" y="0" width="376" height="508" frameX="-4" frameY="-1" frameWidth="380" frameHeight="509"/>
-	<SubTexture name="Soft GF Body DOWN 30001" x="0" y="0" width="376" height="508" frameX="-4" frameY="-1" frameWidth="380" frameHeight="509"/>
-	<SubTexture name="Soft GF Body DOWN 30002" x="376" y="0" width="378" height="509" frameX="0" frameY="0" frameWidth="380" frameHeight="509"/>
-	<SubTexture name="Soft GF Body DOWN 30003" x="376" y="0" width="378" height="509" frameX="0" frameY="0" frameWidth="380" frameHeight="509"/>
-	<SubTexture name="Soft GF Body LEFT 30000" x="754" y="0" width="368" height="570" frameX="-2" frameY="0" frameWidth="370" frameHeight="570"/>
-	<SubTexture name="Soft GF Body LEFT 30001" x="754" y="0" width="368" height="570" frameX="-2" frameY="0" frameWidth="370" frameHeight="570"/>
-	<SubTexture name="Soft GF Body LEFT 30002" x="1122" y="0" width="362" height="564" frameX="0" frameY="-5" frameWidth="370" frameHeight="570"/>
-	<SubTexture name="Soft GF Body LEFT 30003" x="1122" y="0" width="362" height="564" frameX="0" frameY="-5" frameWidth="370" frameHeight="570"/>
-	<SubTexture name="Soft GF Body RIGHT 30000" x="1484" y="0" width="390" height="575" frameX="0" frameY="-12" frameWidth="408" frameHeight="587"/>
-	<SubTexture name="Soft GF Body RIGHT 30001" x="1484" y="0" width="390" height="575" frameX="0" frameY="-12" frameWidth="408" frameHeight="587"/>
-	<SubTexture name="Soft GF Body RIGHT 30002" x="0" y="575" width="406" height="587" frameX="-2" frameY="0" frameWidth="408" frameHeight="587"/>
-	<SubTexture name="Soft GF Body RIGHT 30003" x="0" y="575" width="406" height="587" frameX="-2" frameY="0" frameWidth="408" frameHeight="587"/>
-	<SubTexture name="Soft GF Idle 30000" x="406" y="575" width="352" height="574" frameX="0" frameY="-5" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30001" x="406" y="575" width="352" height="574" frameX="0" frameY="-5" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30002" x="758" y="575" width="345" height="575" frameX="-6" frameY="-4" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30003" x="758" y="575" width="345" height="575" frameX="-6" frameY="-4" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30004" x="1103" y="575" width="339" height="574" frameX="-9" frameY="-5" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30005" x="1103" y="575" width="339" height="574" frameX="-9" frameY="-5" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30006" x="1442" y="575" width="337" height="573" frameX="-8" frameY="-6" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30007" x="1442" y="575" width="337" height="573" frameX="-8" frameY="-6" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30008" x="0" y="1162" width="309" height="564" frameX="-7" frameY="-15" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30009" x="0" y="1162" width="309" height="564" frameX="-7" frameY="-15" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30010" x="309" y="1162" width="313" height="570" frameX="-8" frameY="-8" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30011" x="309" y="1162" width="313" height="570" frameX="-8" frameY="-8" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30012" x="622" y="1162" width="322" height="579" frameX="-9" frameY="0" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30013" x="622" y="1162" width="322" height="579" frameX="-9" frameY="0" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30014" x="944" y="1162" width="331" height="572" frameX="-8" frameY="-7" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="Soft GF Idle 30015" x="944" y="1162" width="331" height="572" frameX="-8" frameY="-7" frameWidth="352" frameHeight="579"/>
-	<SubTexture name="pico Up note 30000" x="1275" y="1162" width="353" height="653" frameX="-4" frameY="0" frameWidth="357" frameHeight="654"/>
-	<SubTexture name="pico Up note 30001" x="1275" y="1162" width="353" height="653" frameX="-4" frameY="0" frameWidth="357" frameHeight="654"/>
-	<SubTexture name="pico Up note 30002" x="1628" y="1162" width="356" height="641" frameX="0" frameY="-13" frameWidth="357" frameHeight="654"/>
-	<SubTexture name="pico Up note 30003" x="1628" y="1162" width="356" height="641" frameX="0" frameY="-13" frameWidth="357" frameHeight="654"/>
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Soft GF Body DOWN 0000" x="382" y="1248" width="380" height="512" frameX="-2" frameY="1" frameWidth="380" frameHeight="509"/>
+	<SubTexture name="Soft GF Body DOWN 0001" x="382" y="1248" width="380" height="512" frameX="-2" frameY="1" frameWidth="380" frameHeight="509"/>
+	<SubTexture name="Soft GF Body DOWN 0002" x="0" y="1248" width="382" height="513" frameX="2" frameY="2" frameWidth="380" frameHeight="509"/>
+	<SubTexture name="Soft GF Body DOWN 0003" x="0" y="1248" width="382" height="513" frameX="2" frameY="2" frameWidth="380" frameHeight="509"/>
+	<SubTexture name="Soft GF Body LEFT 0000" x="768" y="579" width="372" height="573" frameX="0" frameY="2" frameWidth="370" frameHeight="570"/>
+	<SubTexture name="Soft GF Body LEFT 0001" x="768" y="579" width="372" height="573" frameX="0" frameY="2" frameWidth="370" frameHeight="570"/>
+	<SubTexture name="Soft GF Body LEFT 0002" x="1162" y="0" width="365" height="568" frameX="2" frameY="-3" frameWidth="370" frameHeight="570"/>
+	<SubTexture name="Soft GF Body LEFT 0003" x="1162" y="0" width="365" height="568" frameX="2" frameY="-3" frameWidth="370" frameHeight="570"/>
+	<SubTexture name="Soft GF Body RIGHT 0000" x="768" y="0" width="394" height="579" frameX="2" frameY="-10" frameWidth="408" frameHeight="587"/>
+	<SubTexture name="Soft GF Body RIGHT 0001" x="768" y="0" width="394" height="579" frameX="2" frameY="-10" frameWidth="408" frameHeight="587"/>
+	<SubTexture name="Soft GF Body RIGHT 0002" x="0" y="0" width="409" height="591" frameX="-1" frameY="2" frameWidth="408" frameHeight="587"/>
+	<SubTexture name="Soft GF Body RIGHT 0003" x="0" y="0" width="409" height="591" frameX="-1" frameY="2" frameWidth="408" frameHeight="587"/>
+	<SubTexture name="Soft GF Idle 0000" x="1162" y="568" width="356" height="578" frameX="2" frameY="-3" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0001" x="1162" y="568" width="356" height="578" frameX="2" frameY="-3" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0002" x="409" y="644" width="349" height="579" frameX="-4" frameY="-2" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0003" x="409" y="644" width="349" height="579" frameX="-4" frameY="-2" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0004" x="1527" y="0" width="343" height="578" frameX="-7" frameY="-3" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0005" x="1527" y="0" width="343" height="578" frameX="-7" frameY="-3" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0006" x="1527" y="578" width="341" height="577" frameX="-6" frameY="-4" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0007" x="1527" y="578" width="341" height="577" frameX="-6" frameY="-4" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0008" x="2205" y="0" width="313" height="568" frameX="-5" frameY="-13" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0009" x="2205" y="0" width="313" height="568" frameX="-5" frameY="-13" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0010" x="1870" y="1159" width="317" height="574" frameX="-6" frameY="-6" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0011" x="1870" y="1159" width="317" height="574" frameX="-6" frameY="-6" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0012" x="1870" y="576" width="325" height="583" frameX="-7" frameY="2" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0013" x="1870" y="576" width="325" height="583" frameX="-7" frameY="2" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0014" x="1870" y="0" width="335" height="576" frameX="-6" frameY="-5" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0015" x="1870" y="0" width="335" height="576" frameX="-6" frameY="-5" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="pico Up note 0000" x="0" y="591" width="357" height="657" frameX="-2" frameY="2" frameWidth="357" frameHeight="654"/>
+	<SubTexture name="pico Up note 0001" x="0" y="591" width="357" height="657" frameX="-2" frameY="2" frameWidth="357" frameHeight="654"/>
+	<SubTexture name="pico Up note 0002" x="409" y="0" width="359" height="644" frameX="2" frameY="-12" frameWidth="357" frameHeight="654"/>
+	<SubTexture name="pico Up note 0003" x="409" y="0" width="359" height="644" frameX="2" frameY="-12" frameWidth="357" frameHeight="654"/>
+	<SubTexture name="Soft GF Body DOWN 0004" x="382" y="1248" width="380" height="512" frameX="-2" frameY="1" frameWidth="380" frameHeight="509"/>
+	<SubTexture name="Soft GF Body DOWN 0005" x="382" y="1248" width="380" height="512" frameX="-2" frameY="1" frameWidth="380" frameHeight="509"/>
+	<SubTexture name="Soft GF Body DOWN 0006" x="0" y="1248" width="382" height="513" frameX="2" frameY="2" frameWidth="380" frameHeight="509"/>
+	<SubTexture name="Soft GF Body DOWN 0007" x="0" y="1248" width="382" height="513" frameX="2" frameY="2" frameWidth="380" frameHeight="509"/>
+	<SubTexture name="Soft GF Body LEFT 0004" x="768" y="579" width="372" height="573" frameX="0" frameY="2" frameWidth="370" frameHeight="570"/>
+	<SubTexture name="Soft GF Body LEFT 0005" x="768" y="579" width="372" height="573" frameX="0" frameY="2" frameWidth="370" frameHeight="570"/>
+	<SubTexture name="Soft GF Body LEFT 0006" x="1162" y="0" width="365" height="568" frameX="2" frameY="-3" frameWidth="370" frameHeight="570"/>
+	<SubTexture name="Soft GF Body LEFT 0007" x="1162" y="0" width="365" height="568" frameX="2" frameY="-3" frameWidth="370" frameHeight="570"/>
+	<SubTexture name="Soft GF Body RIGHT 0004" x="768" y="0" width="394" height="579" frameX="2" frameY="-10" frameWidth="408" frameHeight="587"/>
+	<SubTexture name="Soft GF Body RIGHT 0005" x="768" y="0" width="394" height="579" frameX="2" frameY="-10" frameWidth="408" frameHeight="587"/>
+	<SubTexture name="Soft GF Body RIGHT 0006" x="0" y="0" width="409" height="591" frameX="-1" frameY="2" frameWidth="408" frameHeight="587"/>
+	<SubTexture name="Soft GF Body RIGHT 0007" x="0" y="0" width="409" height="591" frameX="-1" frameY="2" frameWidth="408" frameHeight="587"/>
+	<SubTexture name="Soft GF Idle 0016" x="1162" y="568" width="356" height="578" frameX="2" frameY="-3" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0017" x="1162" y="568" width="356" height="578" frameX="2" frameY="-3" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0018" x="409" y="644" width="349" height="579" frameX="-4" frameY="-2" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0019" x="409" y="644" width="349" height="579" frameX="-4" frameY="-2" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0020" x="1527" y="0" width="343" height="578" frameX="-7" frameY="-3" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0021" x="1527" y="0" width="343" height="578" frameX="-7" frameY="-3" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0022" x="1527" y="578" width="341" height="577" frameX="-6" frameY="-4" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0023" x="1527" y="578" width="341" height="577" frameX="-6" frameY="-4" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0024" x="2205" y="0" width="313" height="568" frameX="-5" frameY="-13" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0025" x="2205" y="0" width="313" height="568" frameX="-5" frameY="-13" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0026" x="1870" y="1159" width="317" height="574" frameX="-6" frameY="-6" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0027" x="1870" y="1159" width="317" height="574" frameX="-6" frameY="-6" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0028" x="1870" y="576" width="325" height="583" frameX="-7" frameY="2" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0029" x="1870" y="576" width="325" height="583" frameX="-7" frameY="2" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0030" x="1870" y="0" width="335" height="576" frameX="-6" frameY="-5" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="Soft GF Idle 0031" x="1870" y="0" width="335" height="576" frameX="-6" frameY="-5" frameWidth="352" frameHeight="579"/>
+	<SubTexture name="pico Up note 0004" x="0" y="591" width="357" height="657" frameX="-2" frameY="2" frameWidth="357" frameHeight="654"/>
+	<SubTexture name="pico Up note 0005" x="0" y="591" width="357" height="657" frameX="-2" frameY="2" frameWidth="357" frameHeight="654"/>
+	<SubTexture name="pico Up note 0006" x="409" y="0" width="359" height="644" frameX="2" frameY="-12" frameWidth="357" frameHeight="654"/>
+	<SubTexture name="pico Up note 0007" x="409" y="0" width="359" height="644" frameX="2" frameY="-12" frameWidth="357" frameHeight="654"/>
 </TextureAtlas>
