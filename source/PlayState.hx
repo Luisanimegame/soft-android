@@ -3990,6 +3990,7 @@ class PlayState extends MusicBeatState
                 boyfriend.dance();
             }
         }
+        }
 		
 
 		if (curBeat % 8 == 7 && curSong == 'Bopeebo')
