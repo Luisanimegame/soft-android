@@ -247,7 +247,12 @@ class PlayState extends MusicBeatState
 	
 	public function addObject(object:FlxBasic) { add(object); }
 	public function removeObject(object:FlxBasic) { remove(object); }
-
+	
+	// hi soft
+	var isBigYellLocked:Bool = false;
+	var bigYellLockDuration:Float = 0;
+	
+	var useSadSmileIdle:Bool = false;
 
 	override public function create()
 	{
@@ -2136,6 +2141,18 @@ class PlayState extends MusicBeatState
 		#if !debug
 		perfectMode = false;
 		#end
+		
+		if (isBigYellLocked) {
+	        bigYellLockDuration -= elapsed;
+	        if (bigYellLockDuration <= 0) {
+	            isBigYellLocked = false;
+	            boyfriend.dance();
+	        } else {
+	            if (boyfriend.animation.curAnim.name != 'bigYell') {
+	                boyfriend.playAnim('bigYell', true);
+	            }
+	        }
+	    }
 
 
 		if (FlxG.save.data.botplay && FlxG.keys.justPressed.ONE)
@@ -3523,7 +3540,7 @@ class PlayState extends MusicBeatState
 			if (combo > 5 && gf.animOffsets.exists('sad'))
 			{
 				if(pain==false){
-				//gf.playAnim('sad');
+				gf.playAnim('sad');
 				}
 			}
 			combo = 0;
@@ -3965,12 +3982,14 @@ class PlayState extends MusicBeatState
 		}
 
 
-		if (!boyfriend.animation.curAnim.name.startsWith("sing"))
-		{
-			if(pain==false){
-				boyfriend.dance();
-				}
-		}
+		if (!boyfriend.animation.curAnim.name.startsWith("sing")) {
+        if (pain == false) {
+            if (useSadSmileIdle) {
+                boyfriend.playAnim('sadSmile', true);
+            } else {
+                boyfriend.dance();
+            }
+        }
 		
 
 		if (curBeat % 8 == 7 && curSong == 'Bopeebo')
@@ -4007,15 +4026,19 @@ class PlayState extends MusicBeatState
 				camZooming = false;
 				autoCam = false;
 				boyfriend.playAnim('bigYell', true);
+				
+				isBigYellLocked = true;
+				bigYellLockDuration = (Conductor.stepCrochet * 32) / 1000;
+				
 				vocals.volume = 1;
 				camFollow.x = boyfriend.getMidpoint().x;
 				camFollow.y = boyfriend.getMidpoint().y + 20;
 				FlxTween.tween(camGame, {zoom: 1.3}, 0.3, {ease: FlxEase.quintOut});
 				FlxTween.tween(camHUD, {alpha: 0}, 0.3);
-				camGame.shake(0.005, (Conductor.stepCrochet * 32)/1000);
+				camGame.shake(0.005, bigYellLockDuration);
 
 		}
-
+		
 		if (curBeat > 264 && curBeat < 268 && SONG.song == 'Genesis'){ health = 2;}
 
 		if (curBeat == 271 && SONG.song == 'Genesis')
@@ -4028,7 +4051,8 @@ class PlayState extends MusicBeatState
 
 		if (curBeat == 344 && SONG.song == 'Genesis')
 		{
-				//boyfriend.playAnim('sadSmile', true);
+				useSadSmileIdle = true;
+		        boyfriend.playAnim('sadSmile', true);
 				FlxTween.tween(camOverlay, {alpha: 0}, 15, {onComplete: function(twn:FlxTween){
 					dreamscape.destroy();
 					dreamscapeOuter.destroy();
