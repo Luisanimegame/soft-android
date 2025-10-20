@@ -3987,7 +3987,7 @@ class PlayState extends MusicBeatState
 	    if (!boyfriend.animation.curAnim.name.startsWith("sing")) {
 	            if (pain == false) {
 	                if (useSadSmileIdle) {
-	                    boyfriend.playAnim('sadSmile', true);
+	                    boyfriend.playAnim('sadSmile');
 	                } else {
 	                    boyfriend.dance();
 	                }
